@@ -351,3 +351,142 @@ justify-content: space-between;
     bottom: 40%;
     z-index: 1;
 }
+/* portfolio section */
+.portfolio{
+    width: 1320px;
+   height: 1163px;
+   
+   margin: 0 auto;
+   margin-top: 120px;
+}
+.portfolio-text h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+
+}
+.portfolio-text h2{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 4px;
+}
+.portfolio-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.portfolio-items .item{
+    width: 424px;
+    height: 450px;
+    margin-top: 13px;
+
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+/* newsletter section */
+.newsletter{
+    width: 1320px;
+    height: 616px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-container{
+    width: 896px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-text h3{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.newsletter-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscribe-btn{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    display: inline;
+    position: relative;
+
+ background: rgb(255, 255, 255);
+}
+.your-email{
+    width: 440px;
+    height: 72px;
+    border-radius: 50px;
+    border: none;
+    
+
+}
+input::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sb-btn{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+position: absolute;
+}
