@@ -282,3 +282,72 @@ text-align: center;
 
 
 }
+/* holidy section */
+.holiday-container{
+    width: 1320px;
+    height: 986.07px;
+   
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+.holidy-text{
+    width: 1068px;
+   height: 260px;
+   
+   text-align: center;
+   margin: 20px auto;
+
+}
+.holidy-text h4{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holidy-text h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holidy-text p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.solid-color{
+    background-color: red;
+    width: 1320px;
+   height: 229px;
+   position: absolute;
+   top: 77%;
+}
+.gift-box{
+    width: 796.46px;
+height: 662.07px;
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: space-between;
+}
+.girl-img{
+    position: relative;
+    left: 12%;
+    top: 1%;
+}
+.new-img{
+    position: absolute;
+    left: 53%;
+    bottom: 40%;
+    z-index: 1;
+}
